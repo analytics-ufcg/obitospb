@@ -38,3 +38,4 @@ df_final$WED     = is.weekend(df_final$DTOBITO)
 df_final$SUB     = as.numeric(substring(df_final$CAT, 2))
 
 write.table(df_final, file="../data/obitos-PB-2006_2014.dat", row.names=F)
+
